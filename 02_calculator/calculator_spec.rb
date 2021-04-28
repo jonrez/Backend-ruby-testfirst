@@ -79,7 +79,10 @@ end
 
 describe "#multiply" do
 
-  it "multiplies two numbers"
+  it "multiplies two numbers" do
+    expect(multiply(1,5)).to eq(5)
+  end
+
 
   it "multiplies several numbers"
   
